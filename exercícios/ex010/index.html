@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>  
+    <hr>
+    <p>Você pode acessar o meu <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank" rel="external">repositório público do GitHub.</a></p>  
+    <!-- <a> vem de ancoragem -->
+
+    <p>Você também pode acessar o meu <a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="external">canal gratuito no youtube.</a></p>
+    <!-- <target> e <rel> para abrir o link externo numa nova guia -->
+
+    <hr>
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site, se você quiser, pode acessar também a minha <a href="pag002.html" target="_self" rel="next">segunda página.</a></p>
+    <!-- target="_self" serve para abrir na mesma guia -->
+
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" target="_self" rel="next">página de notícias</a>.</p>
+    <!-- rel="next" e "previous" (próxima e anterior) -->
+
+    <hr>
+    <h1>Links para Downlad</h1>
+    <ul>
+        <li>Baixar o <a href="livro/10 - Ligações em toda parte.pdf" target="_blank" download="meulivro.pdf" type="application/pdf">livro em PDF.</a></li>
+        <li>Baixar o <a href="livro/10 - Ligações em toda parte.zip" download="meulivro.pdf" type="application/zip">livro em ZIP.</a></li>
+    </ul>
+</body>
+</html>
