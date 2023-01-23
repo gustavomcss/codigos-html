@@ -14,6 +14,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
     section#login {
         width: 80vw;
+        height: 330px;
     }    
 
     section#login > div#imagem {
@@ -26,11 +27,20 @@
         float: right;
         width: 60%;
     }
+    
+    section#login > div#formulario > h1 {
+        font-size: 1.75em;
+    }
+
+    section#login > div#formulario > p {
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 992px) { /* TELAS GRANDES */
     section#login {
         width: 950px;
+        height: 320px;
     }
 
     section#login > div#imagem {
@@ -45,10 +55,10 @@
     }
     
     section#login > div#formulario > h1 {
-        font-size: 2em;
+        font-size: 1.75em;
     }
 
     section#login > div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
