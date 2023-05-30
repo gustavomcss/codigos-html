@@ -14,9 +14,9 @@ main {
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgb(136, 109, 93, 0.616);
     width: 600px;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
-}
+} 
 
 h1 {
     color: #F39209;
